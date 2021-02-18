@@ -113,17 +113,19 @@
     }
 	footer {
 		text-align: center;
-		position:relative;
-		left:60%;
-		color:#888;
-        transform:translateX(-40%);
+		width:100%;
+		position:fixed;
+		left:50%;
+		bottom:0%;
+		transform:translateX(-50%);
+		background-color:#eeeeee;
+		color:blue;
 	}
   </style>
 </head>
 <body>
     <div id='header'><h1>ML Classifier</h1>
         <p id='description'>Web app for classification models on multiple Datasets</p>
-		<footer>by G.Subhasree</footer>
     </div>
     {%if response:%}
     <div class='outbox1'>
@@ -220,7 +222,7 @@
     </p>
     </div>
     {%endif%}
-        
+    <footer id="myfooter">by   G.Subhasree</footer>    
     <script>
         function norow(){
             document.querySelector("#row").style.display="block";
@@ -260,6 +262,7 @@
             document.querySelector("#predict").style.display="none";
             document.querySelector("#db").style.display="none";
         }
-    </script>
+
+	</script>
 </body>
 </html>
