@@ -105,23 +105,31 @@
     }
     .outbox1{
         margin-top:20px;
-        padding:10px;
-        width:400px;
+        padding:5px;
+        width:450px;
         background-color:#47a0bd;
         color:white;
         border-radius:10px;
     }
+	footer {
+		text-align: center;
+		position:relative;
+		left:60%;
+		color:#888;
+        transform:translateX(-40%);
+	}
   </style>
 </head>
 <body>
     <div id='header'><h1>ML Classifier</h1>
         <p id='description'>Web app for classification models on multiple Datasets</p>
+		<footer>by G.Subhasree</footer>
     </div>
     {%if response:%}
     <div class='outbox1'>
     <p>
         <b>{{response}}</b><br>
-		{%if model_choice=='decisiontree'%}
+		{%if model_choice=='decisiontree' and img!="null" %}
          <a href="{{img}}" >Display Decision Tree</a>
 		{%endif%}
     </p>
