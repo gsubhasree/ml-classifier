@@ -1,6 +1,6 @@
 # ML Classifier
 	
-	https://classifier-ml.herokuapp.com/  
+	https://classifier-ml.herokuapp.com/ 
 
 ## Requirements:
 	Python(version 3.7) IDE (Anaconda recommended)
