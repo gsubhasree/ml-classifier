@@ -1,6 +1,8 @@
 # ML Classifier
 	
-	https://classifier-ml.herokuapp.com/ 
+https://classifier-ml.herokuapp.com/ 
+	
+https://prediction-on-iris-dataset.herokuapp.com/ (basic version: for iris dataset)
 
 ## Requirements:
 	Python(version 3.7) IDE (Anaconda recommended)
@@ -16,16 +18,17 @@
 
 ## Description:
 	To train and deploy ML classification algorithms on Dataset uploaded by user. 
-	Algorithms used here are Logistic Regression,Decision Tree, K Nearest Neighbours, Support Vector Machine & Random Forest Classifier.
+	Algorithms used here are:
+	Logistic Regression,Decision Tree, KNN, SVM & Random Forest Classifier.
 
 	The deployed website has the following provisions:
-		Upload datasets
-		Select current dataset and:
+		•Upload datasets
+		•Select current dataset and:
 		->Add new data over the current dataset: 
 			User can add input data over the current datset.
 		->Train the current dataset on model of user's choice(from the 5) and retain the model
 		->Test the current model: 
-			The species is predicted by the trained model of user's choice with the input parameters.
+			The species is predicted by the trained model of user's choice.
 		->View the dataset
 
 ## Acknowledgements:
